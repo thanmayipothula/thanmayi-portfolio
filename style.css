@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(67, 211, 182);
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: rgb(30, 176, 145);
+  }
+li {
+float: right;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 30px;
+ background-color: rgb(41, 173, 144);
+}
+li a:hover{
+background-color: white;
+color: rgb(30, 176, 145);
+
+}
+.name{
+height:490px;
+margin-top:200px;
+font-size: 40px;
+color:white;
+font-family: sans-serif;
+text-align: center;
+}
+#about img{
+border-radius: 50%;
+width:20%;
+margin-left:40%;
+}
+.sr{
+margin-left:300px;
+}
+.p img{
+width:80%;
+}
+.one, .two, .three{
+background-color: rgb(41, 173, 144);
+border-style: solid;
+border-color: rgb(41, 173, 144);
+font-size: 25px;
+padding:10px;
+border-radius:10px;
+}
+.pro, .skill{
+display:flex;
+}
+#contact{
+background-color: black;
+color:white;
+font-size:30px;
+padding:10px;
+padding-bottom: 20px;
+border-radius: 10px;
+}
